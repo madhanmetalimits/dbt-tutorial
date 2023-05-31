@@ -1,0 +1,11 @@
+dbt_tutorial: # this needs to match the profile in your dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db.fmgdrfwurwhsncnkpblc.supabase.co
+      port: 5432
+      user: postgres
+      pass: Metalimits@123
+      dbname: postgres
+      schema: fabriq-dbt
